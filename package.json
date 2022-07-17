@@ -1,0 +1,22 @@
+{
+  "name": "bot-discord",
+  "version": "0.0.1",
+  "description": "un bot para discord",
+  "main": "src/app.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn ./src/app"
+  },
+  "author": "shompys",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "discord-api-types": "^0.36.2",
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1"
+  }
+}
