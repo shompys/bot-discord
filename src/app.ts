@@ -1,4 +1,5 @@
-import 'dotenv/config';
+import * as dotenv from 'dotenv';
+dotenv.config();
 import { Client, Intents } from 'discord.js';
 import registerCommands from './controllers/registerCommands';
 import { handleCommands } from './controllers/handleMessages';
