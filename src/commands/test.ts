@@ -1,0 +1,1 @@
+export default {"name":"test","description":"Pruebas"};
